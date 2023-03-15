@@ -1,0 +1,217 @@
+.artikkelBody {
+    max-width: 600px;    
+    margin: auto;
+    background-color: #FAF8F7;
+    line-height: normal;  
+    position: relative; 
+    height:750px;
+    overflow: hidden;
+    border: 2px solid#4d671155;
+    border-radius: 5px;
+    font-family: 'adelle_sansregular';
+    
+
+}
+
+.h2-natlab {
+    font-family: "adelle_sansbold";
+    
+}
+
+.a-natlab {
+    text-decoration: none;
+    font-family: 'adelle_sansbold';
+    color: #4d6711;
+    padding-top: 0px;    
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 16px;
+    
+}
+
+.a-natlab:hover {
+    color: #4d671155;
+}
+
+
+.tidslinje {
+    max-width: 550px;
+    padding: 15px;
+    padding-right: 5px;
+    position: relative;
+    margin: auto;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+.tidsElement {
+    margin-top: 10px;
+    /* padding: 5px; */
+    
+}
+
+.elementContent {
+    border-left: 2px solid #4d6711;
+    padding: 0px;
+    position: relative;
+    top: -12px;
+    text-align: justify;
+    
+}
+
+.elementContent p {
+    padding-left: 15px;
+    position: relative;
+    top: -20px;
+    font-family: "adelle_sansregular";
+}
+
+.elementContent h3 {
+    padding-left: 15px;
+    position: relative;
+    font-size: 19px;
+    top: -48px;
+}
+
+.top-paragraph {
+    margin: 15px 40px 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    width: 84%;
+}
+
+.top-paragraph h2 {
+    margin-bottom: 15px;
+   
+}
+
+.top-paragraph p {
+    font-weight: bold;
+}
+
+.dato {
+    background-color: #4d6711;
+    width: fit-content;
+    display: inline-block;
+    padding: 6px 6px;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: -92px;
+    width: 82px;
+    text-align: right;
+}
+
+.image-wrapper {
+    margin-left: 10px ;
+    margin-bottom: 25px;
+}
+
+.bildetekst {
+    display: block;
+    margin-left: 9px;
+    margin-right: 5px;
+    
+}
+
+.bildetekst i {
+    font-size: 14px;
+    font-family: 'adelle_sansregular';
+}
+
+.img-natlab {
+    margin: auto;
+    padding: 10px 0 0 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.ul-natlab {
+    
+    list-style-type: square;
+    list-style-position: inside;
+    list-style: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 10px; 
+}
+
+
+.ul-natlab p {
+    font-size: 16px ;
+}
+#gradient{
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-image: linear-gradient(#ffffff00, white 80%);
+}
+
+
+.button-natlab{
+    border: solid;
+    display: block;
+    margin: auto;
+    top: -32px;
+    position: relative;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+    background: white;
+    border-color: #4d671155;
+    border-width: 3px;
+    font-family: "adelle_sansregular";
+    font-size: 20px;
+}
+
+.button-natlab:hover {
+    background-color: #FAF8F7;
+    border-color: #4d6711;
+}
+
+.button-natlab:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 600px){
+    .top-paragraph {
+        text-align: left;
+        margin:auto;
+        margin-left: 10px;
+        width:fit-content;
+    }
+
+    .tidslinje {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .dato {
+        
+        left:0;
+    }
+
+    .elementContent {
+        text-align: left;
+
+    }
+
+    .elementContent h3 {
+        top:0px;
+
+    }
+
+    .elementContent p {
+        top:0px;
+    }
+
+    .ul-natlab {
+        margin-left: 0px;
+        padding: 0px
+    }
+}
